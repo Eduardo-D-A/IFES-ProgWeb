@@ -1,0 +1,56 @@
+#instituicao{
+    background-color: #dfdbd4;
+}
+.center {
+    text-align: center;
+}
+.box{
+    text-align: center;
+    background-color: #dfdbd4;
+    border: 10px solid #FFD369;
+    margin: 20px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 2px #030407;
+
+}
+body {
+    background-color: #121418;
+    padding: 0;
+}
+h1 {
+    font-family: cursive, Courier;
+    text-align: center;
+    color: #1F2937;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #374151;
+    margin: 5px;
+    padding: 5px;
+}
+p {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px;
+    color: #374851;
+}
+a {
+    color: #374151;
+    text-decoration: none;
+}
+a:hover:visited{
+    color: #3b5a3a;
+}
+a:hover{
+    color: #192080;
+    text-decoration: underline;
+}
+address {
+    margin-top: 15px;
+    text-decoration: none;
+    font-style: normal;
+    color: #000000;
+    background-color: #E5E7EB;
+}
