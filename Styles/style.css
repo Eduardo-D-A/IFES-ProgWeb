@@ -1,9 +1,15 @@
 #instituicao{
     background-color: #dfdbd4;
 }
+
+#boximg {
+    background-image: url(../Images/moroccan-flower.png);
+}
+
 .center {
     text-align: center;
 }
+
 .box{
     text-align: center;
     background-color: #dfdbd4;
@@ -15,8 +21,14 @@
     box-shadow: 10px 10px 8px 2px #030407;
 
 }
+
 body {
     background-color: #121418;
+    background-image: url(../Images/logoSerra.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 65px;
+    background-attachment: fixed;
     padding: 0;
 }
 h1 {
