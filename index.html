@@ -15,40 +15,61 @@
     
     <body>
         
-        <div class="center">
+        <header>
             <h1>Eduardo Dias Amaral</h1>
-            <img src="Images/AvatarMaker.png" alt="Avatar que representa o dono da página">
+            <nav>
+                <a href="#intro">Introdução</a>
+                <a href="#hob">Hobbies</a>
+                <a href="#minhaInstituicao">Minha Instituição</a>
+                <a href="#creditos">Creditos</a>
+            </nav>
+        </header>
+
+        <div class="layout">
+            <aside>
+                <nav class="nav-aside">
+                    <a href="html/miniTutorial.html">Tutorial</a>
+                    <a href="https://serra.ifes.edu.br/" target="_blank">Ifes</a>
+                    <a href="html/curriculo.html">Curriculo</a>
+                </nav>
+            </aside>
+            
+            <main>
+                <section id="imgAvatar">
+                    <img src="Images/AvatarMaker.png" alt="Avatar que representa o dono da página">
+                </section>
+                
+                <section class="box" id="intro">
+                    <h2>Breve introdução</h2>
+                    <p>Meu nome é Eduardo, tenho 17 anos e atualmente sou aluno do IFES Serra</p>
+                </section>
+
+                <section class="box" id="hob">
+                    <h2>Meus Hobbies</h2>
+                    <p>Atualmente, no meu tempo livre tento aprender a tocar violão e ir a academia pelo menos 3 vezes por semana</p>
+                </section>
+
+                <hr>
+
+                <section class="center" id="minhaInstituicao">
+                    <h2 id="instituicao">Minha Instituição</h2>
+                    <a href="https://serra.ifes.edu.br/" target="_blank">
+                        <img src="Images/serra.png" alt="imagem da portaria da o Campus Serra">
+                    </a>
+                </section>
+            </main>
         </div>
 
-        <div class="box" id="boximg">
-            <h2>Breve introdução</h2>
-            <p>Meu nome é Eduardo, tenho 17 anos e atualmente sou aluno do IFES Serra</p>
-        </div>
+        <footer>
+            <a href="html/miniTutorial.html">Tutorial HTML <br></a>
+            <a href="html/curriculo.html">Meu Currículo</a>
 
-        <div class="box">
-            <h2>Meus Hobbies</h2>
-            <p>Atualmente, no meu tempo livre tento aprender a tocar violão e ir a academia pelo menos 3 vezes por semana</p>
-        </div>
-
-        <hr>
-
-        <div class="center">
-            <h2 id="instituicao">Minha Instituição</h2>
-            <a href="https://serra.ifes.edu.br/" target="_blank">
-                <img src="Images/serra.png" alt="imagem da portaria da o Campus Serra">
-            </a>
-        </div>
-
-        <hr>
+            <address id="creditos">
+                Desenvolvido por: Eduardo Dias Amaral
+                <br>Email: eduardodiasamaral2@gmail.com
+                <br>&copy;2025 Eduardo Amaral. Todos os direitos reservados
+                <br>- orientação: prof. Jonathan Toczek
+            </address>
+        </footer>
     </body>
-
-    <footer>
-        <a href="html/miniTutorial.html">Tutorial HTML <br></a>
-        <a href="html/curriculo.html">Meu Currículo</a>
-
-        <address>
-            Desenvolvido por: Eduardo Dias
-            <br>Email: eduardodiasamaral2@gmail.com
-        </address>
-    </footer>
 </html>
